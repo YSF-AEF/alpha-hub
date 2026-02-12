@@ -30,3 +30,11 @@ Thumbs.db
 # Generated context report
 context_pack.md
 
+# 忽略 .ai 下所有本地产物
+.ai/*
+# 仅保留占位或说明文件（可选）
+!.ai/.gitkeep
+!.ai/README.md
+
+# 忽略辅助启动脚本
+ai_context.sh
