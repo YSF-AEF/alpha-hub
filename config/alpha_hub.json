@@ -1,0 +1,15 @@
+{
+  "db_path": "data/alpha_hub.db",
+  "attachments_dir": "data/attachments",
+  "context_limit": 30,
+  "system_prompt": "You are a helpful assistant.",
+  "llm": {
+    "enabled": true,
+    "mode": "mock",
+    "base_url": null,
+    "api_key": null,
+    "model": "gpt-4o-mini",
+    "stream_path": "/v1/chat/completions",
+    "timeout_s": 30.0
+  }
+}
