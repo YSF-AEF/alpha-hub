@@ -38,3 +38,6 @@ context_pack.md
 
 # 忽略辅助启动脚本
 ai_context.sh
+
+#忽略测试脚本
+test/*
